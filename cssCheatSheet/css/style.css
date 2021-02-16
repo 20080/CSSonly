@@ -1,0 +1,167 @@
+/**{*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*}*/
+
+body{
+    background-color: #f4f4f4;
+    color: #555555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+
+    /*same as above*/
+    /*font: normal 16px sans-serif;*/
+    line-height: 1.5em;
+    margin: 0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.button{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    /*  this is how you make a good looking button */
+}
+
+.cls{
+    clear: both;
+}
+
+.button:hover{
+    background-color: red;
+    color: white;
+}
+
+.box-1{
+background-color: #333;
+color: #ffffff;
+    /*border-width: 3px;*/
+    /*border-top-style: dotted;*/
+    /*border-bottom-width: 10px;*/
+    /*or you can use the top left right etc*/
+    border: 5px red solid;
+    padding: 20px;
+    margin:20px 0 ;
+
+}
+
+.box-1 h1{
+    font-family: "JetBrains Mono Medium", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+}
+.box-2{
+border: 5px #ccc dotted;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.categories{
+    border: 1px #ccc solid;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.categories h2{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: steelblue;
+}
+
+a:hover{
+    color: red;
+}
+
+a:active{
+    color: green;
+}
+
+/*a:visited{*/
+/*    color: black;*/
+/*}*/
+
+.categories ul{
+    padding: 0;
+    list-style: none;
+}
+
+.categories li{
+    padding-bottom: 8px;
+    border-bottom: dotted 1px #333333;
+    /*list-style-image: url("../images/check.png");*/
+}
+
+.my-form{
+    padding: 20px;
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+
+}
+
+.my-form label{
+    display: block;/* to make separate line*/
+}
+
+.my-form input[type='text'], .my-form  textarea{
+    padding: 8px;
+    width: 100%;
+}
+.block{
+    float: left;
+    width: 33%;
+    border: 1px #ccc solid;
+    box-sizing: border-box;
+    padding: 10px;
+}
+#main-block{
+    float: left;
+    width: 70%;
+}
+#sidebar{
+    float: right;
+    width: 30%;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    box-sizing: border-box;
+
+}
+.p-box{
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+    margin-top: 30px;
+    position: relative;
+}
+/*parent be relative and the children be absolute*/
+.p-box h1{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+
+.p-box h2{
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+}
+
+.Fix-me{
+    position: fixed;
+    top: 50%;
+}
