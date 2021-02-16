@@ -147,6 +147,10 @@ a:active{
     border: 1px solid black;
     margin-top: 30px;
     position: relative;
+    background-image: url("../images/img_1.png");
+    background-position:100px 200px;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 /*parent be relative and the children be absolute*/
 .p-box h1{
@@ -164,4 +168,18 @@ a:active{
 .Fix-me{
     position: fixed;
     top: 50%;
+}
+.my-list li:first-child{
+background: steelblue;
+}
+.my-list li:last-child{
+    background: green;
+    color: white;
+}
+.my-list li:nth-child(7){
+    background: yellow;
+}
+
+.my-list li:nth-child(even){
+    background: gray;
 }
